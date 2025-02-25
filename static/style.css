@@ -1,0 +1,36 @@
+#clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+#logo {
+    background-color: lightblue;
+    width: 50%;
+    float: left;
+    height: 45px;
+    text-align: left;
+    padding: 5px;
+}
+
+#topMenu {
+    background-color: violet;
+    height: 50px;
+    text-align: center;
+    
+}
+
+#topMenu ul {
+    list-style: none;
+}
+
+#topMenu ul li {
+    float: right;
+    padding: 5px 15px;
+}
+
+
